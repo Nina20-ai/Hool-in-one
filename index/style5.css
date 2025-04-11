@@ -1,0 +1,117 @@
+body {
+    font-family: century;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+header {
+    background: #295728;
+    color: #fff;
+    padding: 10px;
+}
+
+.logo {
+    position: absolute; /* لجعل العنصر في موقع ثابت بالنسبة للصفحة */
+    top: 10px; /* المسافة من الحافة العلوية */
+    left: 10px; /* المسافة من الحافة اليسرى */
+}
+
+.logo img {
+    width: 50px; /* عرض الشعار */
+    height: auto; /* الحفاظ على النسبة الأصلية */
+}
+footer {
+    background: #295728;
+    color: #fff;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    
+    padding: 20;
+}
+footer  a {
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px; 
+    border: 1px solid transparent;
+    transition: 5.0 ease;
+    
+}
+.form-container {
+    /* display: flex;  */
+    gap:  10px;  
+}
+
+.form-field {
+    /* display: flex; */
+    flex-direction: column; /* لترتيب التسمية (label) والإدخال (input) عموديًا */
+    
+    
+}
+
+.form-field label {
+    margin-bottom: 10px; /* مسافة بين التسمية والحقل */
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: column; /* ترتيب العناصر عموديًا */
+    gap: 10px; /* مسافة بين الخيارات */
+    /* text-align: left; محاذاة النصوص إلى اليسار */
+    max-width: 300px; /* عرض الحاوية */
+    margin: auto; /* توسيط الحاوية في الصفحة */
+}
+
+.checkbox-container span {
+    font-weight: bold;
+    margin-bottom: 10px; /* مسافة بين العنوان وخيارات checkbox */
+}
+
+label {
+    /* display: flex; */
+    align-items: center;
+    gap: 5px; /* مسافة بين المربع والنص */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+.zoom-controls {
+    position: fixed; /* لتثبيت الأزرار في مكان دائم */
+    bottom: 20px; /* المسافة من أسفل الصفحة */
+    right: 20px; /* المسافة من يمين الصفحة */
+    display: flex;
+    flex-direction: column; /* ترتيب الأزرار عمودياً */
+    gap: 10px; /* مسافة بين الأزرار */
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+

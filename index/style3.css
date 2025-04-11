@@ -1,0 +1,83 @@
+body {
+    font-family: century;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+header {
+    background: #295728;
+    color: #fff;
+    padding: 10px;
+}
+.logo {
+    position: absolute; /* لجعل العنصر في موقع ثابت بالنسبة للصفحة */
+    top: 10px; /* المسافة من الحافة العلوية */
+    left: 10px; /* المسافة من الحافة اليسرى */
+}
+
+.logo img {
+    width: 50px; /* عرض الشعار */
+    height: auto; /* الحفاظ على النسبة الأصلية */
+}
+footer {
+    background: #295728;
+    color: #fff;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    
+}
+footer  a {
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px; 
+    border: 1px solid transparent;
+    transition: 5.0 ease;
+}
+li {
+    font-family: century;
+}
+img{
+    width: 20%;
+    height: auto;
+}.image-container {
+    /* display: flex; */
+    justify-content: space-between; /* لإنشاء مسافات بين الصور */
+    gap: 10px; /* مسافة ثابتة بين الصور */
+}
+
+.image-container img {
+    width: 150px; /* عرض الصورة */
+    height: auto; /* للحفاظ على النسبة الأصلية */
+    border: 1px solid #ddd; /* حد للصورة (اختياري) */
+    border-radius: 5px; /* زوايا مستديرة (اختياري) */
+}
+h2 {
+    font-size: 17px;
+}
+.zoom-controls {
+    position: fixed; /* لتثبيت الأزرار في مكان دائم */
+    bottom: 20px; /* المسافة من أسفل الصفحة */
+    right: 20px; /* المسافة من يمين الصفحة */
+    display: flex;
+    flex-direction: column; /* ترتيب الأزرار عمودياً */
+    gap: 10px; /* مسافة بين الأزرار */
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}

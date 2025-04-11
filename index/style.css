@@ -1,0 +1,120 @@
+body {
+    font-family: century;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+header {
+    background: #295728;
+    color: #fff;
+    padding: 10px;
+}
+.logo {
+    position: absolute; /* لجعل العنصر في موقع ثابت بالنسبة للصفحة */
+    top: 10px; /* المسافة من الحافة العلوية */
+    left: 10px; /* المسافة من الحافة اليسرى */
+}
+
+.logo img {
+    width: 50px; /* عرض الشعار */
+    height: auto; /* الحفاظ على النسبة الأصلية */
+}
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+h2{
+    font-family: century;
+    color: #000;
+
+}
+
+footer {
+    background: #295728;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    
+}
+footer  a {
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px; 
+    border: 1px solid transparent;
+    transition: 5.0 ease;
+}
+.cards-container {
+    display: flex;
+    justify-content: space-between; /* تباعد بين المربعات */
+    gap: 10px; /* مسافة بين المربعات */
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    margin-left: 20px; 
+    gap: 5px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+}
+
+.card-content h3 {
+    margin: 0 0 5px;
+    font-size: 16px;
+}
+
+.card-content button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-content button:hover {
+    background-color: #555;
+}
+.zoom-controls {
+    position: fixed; /* لتثبيت الأزرار في مكان دائم */
+    bottom: 20px; /* المسافة من أسفل الصفحة */
+    right: 20px; /* المسافة من يمين الصفحة */
+    display: flex;
+    flex-direction: column; /* ترتيب الأزرار عمودياً */
+    gap: 10px; /* مسافة بين الأزرار */
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+

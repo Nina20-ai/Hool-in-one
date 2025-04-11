@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/pexels-simphotography-15863470.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+ul {
+    float: right; 
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 30px;
+    font-size: 17px;
+}
+ul li {
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px; 
+    border: 1px solid transparent;
+    transition: 5.0 ease;
+}
+ul li a:hover {
+    background-color: #fff; 
+    color: #000;
+}
+.logo {
+    position: absolute; /* لجعل العنصر في موقع ثابت بالنسبة للصفحة */
+    top: 10px; /* المسافة من الحافة العلوية */
+    left: 10px; /* المسافة من الحافة اليسرى */
+}
+
+.logo img {
+    width: 50px; /* عرض الشعار */
+    height: auto; /* الحفاظ على النسبة الأصلية */
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+footer{
+    background-color: #008000;
+    padding: 20px;
+}
+.zoom-controls {
+    position: fixed; /* لتثبيت الأزرار في مكان دائم */
+    bottom: 20px; /* المسافة من أسفل الصفحة */
+    right: 20px; /* المسافة من يمين الصفحة */
+    display: flex;
+    flex-direction: column; /* ترتيب الأزرار عمودياً */
+    gap: 10px; /* مسافة بين الأزرار */
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
